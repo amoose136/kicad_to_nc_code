@@ -1,0 +1,162 @@
+## Footprint report - date 09/28/17 12:34:12
+## Created by Pcbnew version kicad 4.0.7
+## Unit = inches, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner  5.190596  3.927047
+lower_right_corner  6.296412  4.492953
+$EndBOARD
+
+$MODULE "D1"
+reference "D1"
+value "LED"
+footprint "LEDs:LED_PLCC_2835"
+attribut smd
+position  5.650000  4.170000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.044488  0.000000  size  0.086614  0.082677  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.044488  0.000000  size  0.051181  0.082677  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D1
+
+$MODULE "R1"
+reference "R1"
+value "R"
+footprint "Resistors_SMD:R_1206"
+attribut smd
+position  5.960000  4.160000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.057087  0.000000  size  0.035433  0.066929  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.057087  0.000000  size  0.035433  0.066929  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R2"
+reference "R2"
+value "R"
+footprint "Resistors_SMD:R_1206"
+attribut smd
+position  5.650000  4.350000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.057087  0.000000  size  0.035433  0.066929  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.057087  0.000000  size  0.035433  0.066929  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "R3"
+reference "R3"
+value "R"
+footprint "Resistors_SMD:R_1206"
+attribut smd
+position  5.830000  4.160000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.057087  0.000000  size  0.035433  0.066929  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.057087  0.000000  size  0.035433  0.066929  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE "PowerIn1"
+reference "PowerIn1"
+value "Conn_01x02_Male"
+footprint "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.00mm"
+attribut none
+position  5.460000  4.130000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  0.033465  0.033465  orientation 0.00
+drill  0.019685
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  0.039370  size  0.033465  0.033465  orientation 0.00
+drill  0.019685
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  PowerIn1
+
+$MODULE "J1"
+reference "J1"
+value "Conn_01x01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm"
+attribut none
+position  5.960000  4.350000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  0.033465  0.033465  orientation 0.00
+drill  0.019685
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "FID0"
+reference "FID0"
+value ""
+footprint "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
+attribut virtual
+position  5.410000  4.370000  orientation 0.00
+layer front
+$PAD "~"
+Shape Circle Layer front
+position  0.000000  0.000000  size  0.078740  0.078740  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  FID0
+
+$MODULE "FID1"
+reference "FID1"
+value ""
+footprint "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
+attribut virtual
+position  6.090000  4.060000  orientation 0.00
+layer front
+$PAD "~"
+Shape Circle Layer front
+position  0.000000  0.000000  size  0.078740  0.078740  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  FID1
+
+$EndDESCRIPTION

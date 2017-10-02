@@ -1,0 +1,10 @@
+### Module positions - created on 09/28/17 12:33:04 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+D1        LED       LED_PLCC_2835        0.2400     0.2000    0.0000  top
+R1        R         R_1206               0.5500     0.2100  270.0000  top
+R2        R         R_1206               0.2400     0.0200  180.0000  top
+R3        R         R_1206               0.4200     0.2100   90.0000  top
+## End
